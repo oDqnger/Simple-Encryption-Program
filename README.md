@@ -6,3 +6,7 @@ So you ask the user whether or not you want to decrypt or encrypt a message, the
 
 # How to run the program?
 To play, make sure you have python 3+ installed, then you need to download the main.py file and place it anywhere in your computer. Then, go to your cmd (terminal for mac or linux users) and then navigate to the folder path using "cd [insert folder name here, dont include the brackets]. Once you are in the folder where the main.py file is stored, run the py file by typing, "python main.py."
+
+# HINTS:
+use the string and random module if you want to know how to get all the different types of characters, rather than inputing them yourself manually.
+to randomize the key, convert the characters from the string module to a list. list(string.punctuation + string.digits + string.ascii_uppercase + string.ascii_lowercase + string.whitespace)
